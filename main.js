@@ -2,7 +2,7 @@ const data = [
     {
         repoName: "Typing Speedo",
         repoPage: "Typing-Speedo/index.html",
-        repo: "Typing-Speedo"
+        repo: "Typing Speedo"
     },
     {
         repoName: "Sweet Alert",
