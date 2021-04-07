@@ -1,14 +1,16 @@
+
 const data = [
     {
         repo: "Typing Speedo",
-        page: "Typing Speedo/index.html"
+        page: true
     },
     {
-        repo: "Sweet-Alert"
+        repo: "Sweet-Alert",
+        page: false
     },
     {
         repo: "T-rex Runner Game",
-        page: "T-rex Runner Game/index.html"
+        page: true
     },
 ];
 
@@ -18,13 +20,13 @@ const data = [
 let html = "";
 let githubProfile = "https://github.com/avinashprogrammer/";
 data.forEach(obj => {
-    if(obj.page != undefined) {
+    if(obj.page) {
         html += 
         `
             <div class="card">
                 <div>
                     <h2 class="project-name">${obj.repo}</h2>
-                    <a href="files/${obj.page}" class="button secondary-btn">View</a>
+                    <a href="files/${obj.repo}/index.html" class="button secondary-btn">View</a>
                     <a href="${githubProfile}avinashprogrammer.github.io/tree/main/files/${obj.repo}" class="button primary-btn">Code</a>
                 </div>
             </div>
