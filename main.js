@@ -5,6 +5,10 @@ const data = [
         page: true
     },
     {
+        repo: "Simple todo list creator",
+        page: true
+    },
+    {
         repo: "Sweet alert",
         page: false
     },
