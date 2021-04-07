@@ -47,5 +47,3 @@ data.forEach(obj => {
 })
 
 document.querySelector("#projects-container").innerHTML += html;
-
-console.log("hello");
