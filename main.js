@@ -48,4 +48,4 @@ data.forEach(obj => {
 
 document.querySelector("#projects-container").innerHTML += html;
 
-hello
+console.log("hell9");
