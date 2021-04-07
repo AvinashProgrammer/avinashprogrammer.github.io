@@ -5,7 +5,7 @@ const data = [
         page: true
     },
     {
-        repo: "Sweet-Alert",
+        repo: "Sweet alert",
         page: false
     },
     {
