@@ -693,7 +693,7 @@ function createBlock() {
             "%0A");
         let email = "avinashkumar1332006@gmail.com";
 
-        let url = `mailto:${email}?subject=${subject}%20-%20${name}&body=${message}`;
+        let url = `mailto:${email}?subject=${subject}&body=${message}`;
         location.href = url;
     }
 
