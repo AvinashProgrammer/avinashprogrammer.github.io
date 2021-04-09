@@ -691,7 +691,7 @@ function createBlock() {
         let message = $("#contact-us-message").value;
         message = message.replace(/\n/g,
             "<br>");
-        message += `\n${name}`;
+        message += `<br>${name}`;
         let email = "avinashkumar1332006@gmail.com";
 
         let url = `mailto:${email}?subject=${subject}&body=${message}`;
