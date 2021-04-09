@@ -690,7 +690,7 @@ function createBlock() {
         let subject = $("#contact-us-subject").value;
         let message = $("#contact-us-message").value;
         message = message.replace(/\n/g,
-            "%0A");
+            "<br>");
         message += `\n${name}`;
         let email = "avinashkumar1332006@gmail.com";
 
